@@ -22,6 +22,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
   - [Model Management](#model-management)
   - [Data Collection & Web Scraping](#data-collection--web-scraping)
   - [MCP Tools & Servers](#mcp-tools--servers)
+  - [Voice AI & Speech Tools](#voice-ai--speech-tools)
 - [🤖 Agent Frameworks](#-agent-frameworks)
 - [📦 LLM Development & Optimization](#-llm-development--optimization)
   - [Open Source LLM Inference](#open-source-llm-inference)
@@ -167,6 +168,20 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [ToolHive](https://github.com/stacklok/toolhive) | CLI utility for securely deploying and managing MCP servers using containerization and standardized packaging | Go | Apache-2.0 |
 | [Cognee](https://github.com/topoteretes/cognee) | Memory manager for AI agents using graph and vector stores — connects to 30+ data sources with MCP support | Python | Apache-2.0 |
 
+
+### Voice AI & Speech Tools
+
+| Tool | Description | Language | License |
+|------|-------------|----------|---------|
+| [Pipecat](https://github.com/pipecat-ai/pipecat) | Open-source Python framework for building real-time voice and multimodal AI agents with STT, LLM, and TTS pipeline orchestration | Python | BSD-2-Clause |
+| [LiveKit Agents](https://github.com/livekit/agents) | Production-grade framework for building real-time voice AI agents with WebRTC transport, telephony support, and native MCP integration | Python | Apache-2.0 |
+| [Whisper](https://github.com/openai/whisper) | OpenAI's general-purpose speech recognition model trained on 680k hours of multilingual audio | Python | MIT |
+| [Whisper.cpp](https://github.com/ggml-org/whisper.cpp) | High-performance C/C++ port of Whisper for fast local inference across CPU, GPU, and edge devices | C/C++ | MIT |
+| [Kokoro](https://github.com/hexgrad/kokoro) | Lightweight open-weight TTS model with 82M parameters — fast, high-quality speech synthesis with Apache-licensed weights | Python | Apache-2.0 |
+| [Coqui TTS](https://github.com/idiap/coqui-ai-TTS) | Deep learning toolkit for text-to-speech with 1000+ pre-trained models, voice cloning, and multilingual support | Python | MPL-2.0 |
+| [Silero VAD](https://github.com/snakers4/silero-vad) | Lightweight, enterprise-grade voice activity detection model — zero telemetry, no vendor lock, runs on CPU | Python | MIT |
+
+
 ## 🤖 Agent Frameworks
 
 | Framework | Description | Language | License |
@@ -236,6 +251,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | NVIDIA library for optimizing LLM inference with TensorRT | C++/Python | Apache-2.0 |
 | [WebLLM](https://github.com/mlc-ai/web-llm) | High-performance in-browser LLM inference engine | TypeScript/Python | Apache-2.0 |
 | [SkyPilot](https://github.com/skypilot-org/skypilot) | Unified framework to run ML workloads and LLMs on any cloud (AWS, GCP, Azure, Lambda, etc.) with auto-spot, data syncing, and cost optimization. | Python | Apache-2.0 |
+| [Gemma](https://github.com/google-deepmind/gemma) | Google DeepMind's open-weight LLM library — supports Gemma 4 with multimodal input including text, images, video, and audio | Python | Apache-2.0 |
 
 ### LLM Safety and Security
 
