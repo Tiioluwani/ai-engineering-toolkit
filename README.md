@@ -21,10 +21,11 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
   - [Evaluation & Testing](#evaluation--testing)
   - [Model Management](#model-management)
   - [Data Collection & Web Scraping](#data-collection--web-scraping)
+  - [MCP Tools & Servers](#mcp-tools--servers)
 - [🤖 Agent Frameworks](#-agent-frameworks)
-- [📦 LLM Development & Optimization](#llm-development--optimization)
+- [📦 LLM Development & Optimization](#-llm-development--optimization)
   - [Open Source LLM Inference](#open-source-llm-inference)
-  - [LLM Safety & Security](#llm-safety--security)
+  - [LLM Safety & Security](#llm-safety-and-security)
   - [AI App Development Frameworks](#ai-app-development-frameworks)
   - [Local Development & Serving](#local-development--serving)
   - [LLM Inference Platforms](#llm-inference-platforms)
@@ -79,6 +80,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [MegaParse](https://github.com/megaparse/megaparse) | Universal parser for PDFs, HTML, and semi-structured documents | Python | Apache-2.0 |
 | [ExtractThinker](https://github.com/extract-thinker/extract-thinker) | Intelligent document extraction framework with schema mapping | Python | MIT |
 | [PyMuPDF4LLM](https://github.com/JKamlah/pyMuPDF4LLM) | Wrapper around PyMuPDF for LLM-ready text, tables, and image extraction | Python | Apache-2.0 |
+| [MarkItDown](https://github.com/microsoft/markitdown) | Microsoft tool for converting files and office documents to Markdown for use with LLMs | Python | MIT |
 
 ### RAG (Retrieval-Augmented Generation)
 
@@ -99,6 +101,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [RAGatouille](https://github.com/AnswerDotAI/RAGatouille) | Easily use and train ColBERT-based late interaction retrieval models in any RAG pipeline | Python | Apache-2.0 |
 | [Cognita](https://github.com/truefoundry/cognita) | Modular, production-ready RAG framework with UI, API layer, and support for multiple vector DBs | Python | Apache-2.0 |
 | [Kotaemon](https://github.com/Cinnamon/kotaemon) | Open-source RAG-based document QA tool with clean UI, hybrid retrieval, and multi-modal document support | Python | Apache-2.0 |
+| [Memvid](https://github.com/memvid/memvid) | Single-file memory layer for AI agents — replaces complex RAG pipelines with serverless, portable memory | Rust | Apache-2.0 |
 
 ### Evaluation & Testing
 
@@ -146,6 +149,23 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Trafilatura](https://github.com/adbar/trafilatura) | Extract clean text from web pages for LLM training corpora | Python | MIT |
 | [ScrapeGraphAI](https://github.com/VinciGit00/Scrapegraph-ai) | Use LLMs to extract structured data from websites and documents | Python | MIT |
 | [Crawlee](https://github.com/apify/crawlee) | Web scraping and crawling framework for large-scale data collection | TypeScript | Apache-2.0 |
+| [Scrapling](https://github.com/D4Vinci/Scrapling) | Adaptive web scraping framework with stealth mode, anti-bot bypass, and built-in MCP server support | Python | BSD-3 |
+
+
+### MCP Tools & Servers
+
+| Tool | Description | Language | License |
+|------|-------------|----------|---------|
+| [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) | Official Python SDK for building MCP servers and clients — the standard way to expose tools and data to LLMs | Python | MIT |
+| [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) | Official TypeScript SDK for building MCP servers and clients with full protocol support | TypeScript | MIT |
+| [MCP Servers](https://github.com/modelcontextprotocol/servers) | Official reference MCP server implementations including Filesystem, Memory, Git, Fetch, and Sequential Thinking | TypeScript/Python | MIT |
+| [Context7](https://github.com/upstash/context7) | Injects live, version-specific library documentation into LLM prompts — eliminates hallucinated APIs | TypeScript | MIT |
+| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Official Microsoft MCP server for browser automation using Playwright with accessibility-based snapshots | TypeScript | Apache-2.0 |
+| [Smithery CLI](https://github.com/smithery-ai/cli) | CLI for discovering, installing, and managing MCP servers across AI development environments | TypeScript | AGPL-3.0 |
+| [FastMCP](https://github.com/PrefectHQ/fastmcp) | High-level Python framework for building MCP servers — minimal boilerplate, production-ready | Python | MIT |
+| [mcp-use](https://github.com/mcp-use/mcp-use) | Fullstack MCP framework for building MCP servers, apps, and agents with TypeScript and Python support | TypeScript/Python | MIT |
+| [ToolHive](https://github.com/stacklok/toolhive) | CLI utility for securely deploying and managing MCP servers using containerization and standardized packaging | Go | Apache-2.0 |
+| [Cognee](https://github.com/topoteretes/cognee) | Memory manager for AI agents using graph and vector stores — connects to 30+ data sources with MCP support | Python | Apache-2.0 |
 
 ## 🤖 Agent Frameworks
 
@@ -179,6 +199,8 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [AG2](https://github.com/ag2ai/ag2) | Actively maintained evolution of AutoGen by the original authors with enhanced multi-agent capabilities | Python | Apache-2.0 |
 | [OpenClaw](https://github.com/openclaw/openclaw) | Self-hosted autonomous AI agent connecting to 10+ messaging platforms with persistent memory and 24/7 operation | TypeScript | MIT |
 | [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Self-improving autonomous agent by Nous Research with skill creation, memory, and 18-platform messaging gateway | Python | MIT |
+| [DeerFlow](https://github.com/bytedance/deer-flow) | ByteDance's open-source SuperAgent harness orchestrating sub-agents, memory, and sandboxes for long-horizon tasks | Python/TypeScript | MIT |
+| [AgenticSeek](https://github.com/Fosowl/agenticSeek) | Fully local autonomous agent that thinks, browses the web, and writes code — no APIs required | Python | GPL-3.0 |
 
 ## 📦 LLM Development & Optimization
 
@@ -202,6 +224,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Accelerate](https://github.com/huggingface/accelerate) | Library to easily train on multiple GPUs/TPUs with mixed precision | Python | Apache-2.0 |
 | [LMFlow](https://github.com/OptimalScale/LMFlow) | Extensible toolkit for finetuning and inference of large foundation models | Python | Apache-2.0 |
 | [MergeKit](https://github.com/arcee-ai/mergekit) | Toolkit for merging multiple fine-tuned LLMs into a single model without additional training | Python | LGPL-3.0 |
+| [ART](https://github.com/OpenPipe/ART) | Agent Reinforcement Trainer — train multi-step agents for real-world tasks using GRPO | Python | Apache-2.0 |
 
 ### Open Source LLM Inference
 
