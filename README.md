@@ -59,6 +59,10 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Flowise](https://github.com/FlowiseAI/Flowise) | Drag-and-drop UI for creating LLM chains and agents | TypeScript | MIT |
 | [Promptflow](https://github.com/microsoft/promptflow) | Workflow orchestration for LLM pipelines, evaluation, and deployment | Python | MIT |
 | [Dify](https://github.com/langgenius/dify) | Production-ready open source platform combining RAG pipelines, agent capabilities, model management, and observability in one UI | TypeScript/Python | Apache-2.0 |
+| [n8n](https://github.com/n8n-io/n8n) | Workflow automation platform with native LLM and AI agent node support for building agentic pipelines | TypeScript | Sustainable Use |
+| [Instructor](https://github.com/jxnl/instructor) | Structured outputs from LLMs using Pydantic — reliable JSON extraction with validation and retries | Python | MIT |
+| [Outlines](https://github.com/dottxt-ai/outlines) | Structured text generation with guaranteed JSON schema compliance and regex-guided sampling | Python | Apache-2.0 |
+| [Pathway](https://github.com/pathwaycom/pathway) | Python framework for real-time data pipelines connecting live data streams to LLM and RAG workflows | Python | BSL |
 
 ### PDF Extraction Tools
 
@@ -91,6 +95,10 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Chonkie](https://github.com/bhavnicksm/chonkie-main) | Chunking utility for efficient document processing in RAG | Python | - |
 | [FlashRAG](https://github.com/RUC-NLPIR/FlashRAG) | Low-latency RAG research toolkit with modular design and benchmarks | Python | - |
 | [Llmware](https://github.com/llmware-ai/llmware) | Lightweight framework for building RAG-based apps | Python | Apache-2.0 |
+| [LightRAG](https://github.com/HKUDS/LightRAG) | Graph-based RAG with knowledge graph extraction, multimodal support, and multiple chunking strategies | Python | MIT |
+| [RAGatouille](https://github.com/AnswerDotAI/RAGatouille) | Easily use and train ColBERT-based late interaction retrieval models in any RAG pipeline | Python | Apache-2.0 |
+| [Cognita](https://github.com/truefoundry/cognita) | Modular, production-ready RAG framework with UI, API layer, and support for multiple vector DBs | Python | Apache-2.0 |
+| [Kotaemon](https://github.com/Cinnamon/kotaemon) | Open-source RAG-based document QA tool with clean UI, hybrid retrieval, and multi-modal document support | Python | Apache-2.0 |
 
 ### Evaluation & Testing
 
@@ -109,6 +117,9 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Langfuse](https://github.com/langfuse/langfuse) | Open source LLM engineering platform with tracing, evals, prompt management, and metrics | TypeScript/Python | MIT |
 | [Helicone](https://github.com/Helicone/helicone) | Open source observability and monitoring platform for debugging and improving LLM apps | TypeScript | Apache-2.0 |
 | [OpenLLMetry](https://github.com/traceloop/openllmetry) | OpenTelemetry-based observability extensions for LLM apps — plugs into Datadog, Honeycomb, and more | Python | Apache-2.0 |
+| [Promptfoo](https://github.com/promptfoo/promptfoo) | Test and evaluate LLM outputs with assertions, red teaming, and CI/CD integration | TypeScript | MIT |
+| [Braintrust](https://github.com/braintrustdata/braintrust-sdk-javascript) | End-to-end AI evaluation platform connecting production traces to systematic improvement and CI/CD | TypeScript | MIT |
+| [AgentBench](https://github.com/THUDM/AgentBench) | Comprehensive benchmark for evaluating LLMs as autonomous agents across diverse real-world environments | Python | Apache-2.0 |
 
 ### Model Management
 
@@ -162,6 +173,12 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Langroid](https://github.com/langroid/langroid) | Framework for building multi-agent conversational systems | Python | Apache-2.0 |
 | [Upsonic](https://github.com/upsonic/upsonic) | Agent framework focused on context management and tool use | Python | Apache-2.0 |
 | [Mem0](https://github.com/mem0ai/mem0) | Universal memory layer for AI agents — persistent, personalized memory across sessions | Python | Apache-2.0 |
+| [Mastra](https://github.com/mastra-ai/mastra) | TypeScript-native agent framework with workflow-driven development and built-in observability | TypeScript | Apache-2.0 |
+| [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Multi-agent framework that simulates a software company with role-playing agents (PM, architect, engineer) | Python | MIT |
+| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | Production-ready multi-agent framework with native MCP tool use and sub-agent handoffs | Python | MIT |
+| [AG2](https://github.com/ag2ai/ag2) | Actively maintained evolution of AutoGen by the original authors with enhanced multi-agent capabilities | Python | Apache-2.0 |
+| [OpenClaw](https://github.com/openclaw/openclaw) | Self-hosted autonomous AI agent connecting to 10+ messaging platforms with persistent memory and 24/7 operation | TypeScript | MIT |
+| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Self-improving autonomous agent by Nous Research with skill creation, memory, and 18-platform messaging gateway | Python | MIT |
 
 ## 📦 LLM Development & Optimization
 
@@ -183,6 +200,8 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [RL4LMs](https://github.com/allenai/RL4LMs) | RL library to fine-tune LMs to human preferences | Python | Apache-2.0 |
 | [torchtune](https://github.com/pytorch/torchtune) | PyTorch-native library for fine-tuning LLMs | Python | BSD-3 |
 | [Accelerate](https://github.com/huggingface/accelerate) | Library to easily train on multiple GPUs/TPUs with mixed precision | Python | Apache-2.0 |
+| [LMFlow](https://github.com/OptimalScale/LMFlow) | Extensible toolkit for finetuning and inference of large foundation models | Python | Apache-2.0 |
+| [MergeKit](https://github.com/arcee-ai/mergekit) | Toolkit for merging multiple fine-tuned LLMs into a single model without additional training | Python | LGPL-3.0 |
 
 ### Open Source LLM Inference
 
@@ -230,6 +249,8 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [AI Gateway](https://github.com/Portkey-AI/ai-gateway) | Gateway for managing LLM requests, caching, and routing | Python | Apache-2.0 |
 | [Langcorn](https://github.com/langcorn/langcorn) | Serve LangChain applications via FastAPI with production-ready endpoints | Python | MIT |
 | [LitServe](https://github.com/Lightning-AI/LitServe) | High-speed GPU inference server with autoscaling and batch support | Python | Apache-2.0 |
+| [Jan](https://github.com/janhq/jan) | Open-source ChatGPT alternative that runs 100% offline with local model management | TypeScript | AGPL-3.0 |
+| [Llamafile](https://github.com/Mozilla-Ocho/llamafile) | Distribute and run LLMs as a single self-contained executable file — zero setup required | C++ | Apache-2.0 |
 
 ### Structured Generation
 
