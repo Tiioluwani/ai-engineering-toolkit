@@ -47,6 +47,10 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [FAISS](https://github.com/facebookresearch/faiss) | Library for efficient similarity search and clustering | C++/Python | MIT | 
 | [Deep Lake](https://github.com/activeloopai/deeplake) | AI-native data lake with versioned datasets, optimized for embeddings and multimodal storage | Python | Apache-2.0 | 
 | [Vectara](https://github.com/vectara) | Managed RAG platform with APIs for retrieval and generation | Python/Go | Commercial |
+| [pgvector](https://github.com/pgvector/pgvector) | Vector similarity search extension for PostgreSQL | C | PostgreSQL License |
+| [LanceDB](https://github.com/lancedb/lancedb) | Serverless embedded vector database for multimodal AI built on the Lance columnar format | Rust/Python | Apache-2.0 |
+| [Vespa](https://github.com/vespa-engine/vespa) | Open-source platform for large-scale vector search, ranking, and real-time recommendation | Java/C++ | Apache-2.0 |
+| [OpenSearch](https://github.com/opensearch-project/OpenSearch) | Distributed search and analytics engine with vector search and hybrid search support | Java | Apache-2.0 |
 
 ### Orchestration & Workflows
 
@@ -134,6 +138,9 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Weights & Biases](https://github.com/wandb/wandb) | Developer tools for ML | Python | MIT |
 | [DVC](https://github.com/iterative/dvc) | Data version control for ML projects | Python | Apache-2.0 |
 | [ClearML](https://github.com/allegroai/clearml) | End-to-end MLOps platform with LLM support | Python | Apache-2.0 |
+| [ZenML](https://github.com/zenml-io/zenml) | MLOps framework for building pipelines and managing models across any cloud infrastructure | Python | Apache-2.0 |
+| [BentoML](https://github.com/bentoml/BentoML) | Unified model serving framework for building and deploying AI model inference APIs | Python | Apache-2.0 |
+| [Langfuse](https://github.com/langfuse/langfuse) | Open-source LLM engineering platform for tracing, evaluation, prompt management, and observability | TypeScript/Python | MIT |
 
 ### Data Collection & Web Scraping
 
@@ -311,6 +318,10 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Groq](https://groq.com/) | Ultra-fast LPU inference engine for running open AI models |Free tier + Pay-per-use | Blazing fast speed, High throughput, Low latency, Open model support |
 | [OpenRouter](https://openrouter.ai/) | Universal API to find and route to the best LLMs from various providers | Free tier + Pay-per-use | Multi-provider access, Unified API, Model comparison, Caching |
 | [RouteLLM](https://github.com/routeLLM/routeLLM) | Dynamic router for selecting best LLMs based on cost & performance | Open-source | Cost optimization, Multi-LLM routing |
+| [Fireworks AI](https://fireworks.ai/) | High-performance inference platform optimized for agentic systems and structured output | Free credits + Pay-as-you-go | Ultra-low latency, Structured output, Fine-tuning, 50+ open models |
+| [Cerebras](https://www.cerebras.ai/inference) | Wafer-scale chip inference platform delivering the world's fastest LLM throughput | Free tier + Pay-per-use | World's fastest inference, OpenAI-compatible API, Function calling, JSON mode |
+| [Hyperbolic](https://www.hyperbolic.ai/) | Open-access AI cloud for lowest-cost inference and GPU rentals on open-source models | Pay-per-use | Lowest-cost inference, GPU rentals, OpenAI-compatible, No hidden fees |
+| [Hugging Face Inference](https://huggingface.co/inference) | Unified API routing to 15+ inference providers with access to 200+ open-source models | Free tier + Pay-as-you-go | 200+ models, 15+ providers, Serverless and dedicated endpoints, Monthly free credits |
 
 ## 🤝 Contributing
 
